@@ -1,0 +1,24 @@
+{
+  "full": {
+        "collection_name": "activity",
+        "directory": "/Users/joe/data/garminData/DI_CONNECT/DI-Connect-Fitness-Uploaded-Files",
+        "dump_directory": "/Users/joe/data/garmin/dataDecode/debugDump",
+        "fileType": ".fit",
+        "reloadDB": "True",
+        "debug": "False",
+        "db_insert": "db",
+        "document_skip": 1,
+        "document_limit": 25000,
+        "mongo_connection_string":  "mongodb://mongo_server:27017/"},
+  "small": {
+        "collection_name": "activity_small",
+        "directory": "/Users/joe/data/garminData/DI_CONNECT/DI-Connect-Fitness-Uploaded-Files",
+        "dump_directory": "/Users/joe/data/garmin/dataDecode/debugDump",
+        "fileType": ".fit",
+        "reloadDB": "True",
+        "debug": "False",
+        "db_insert": "db",
+        "document_skip": 50,
+        "document_limit": 25000,
+        "mongo_connection_string":  "mongodb://mongo_server:27017/"}
+}

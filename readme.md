@@ -20,7 +20,7 @@ Overall the system contains the following components.
 * Power Analysis - Data cleaning and analysis for power analysis
 * Pedaling Dynamics Analysis - Data cleaning and analysis for pedaling dynamics analysis
 
- ![System Diagram](../garmin_data_analysis_system_flow_final.png)
+ ![System Diagram](garmin_data_analysis_system_flow_final.png)
 
 The following sections provide implementation details for each of these components. 
 

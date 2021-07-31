@@ -463,7 +463,7 @@ def reset_db(settings, db):
 
 
 def configure_logging():
-    logging.basicConfig(filename='output.log', level=logging.DEBUG, format='%(asctime)s %(levelname)s %(message)s',
+    logging.basicConfig(filename='src/output.log', level=logging.DEBUG, format='%(asctime)s %(levelname)s %(message)s',
                         datefmt='%m/%d/%Y %I:%M:%S %p')
 
 
